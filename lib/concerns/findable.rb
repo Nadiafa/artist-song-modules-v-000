@@ -7,7 +7,11 @@ module Findable
 end
 
 
-def initialize
-    @@artists << self
+  def initialize
+    self.class.all << self
     @songs = []
+  end
+  
+  def initialize
+    self.class.all << self
   end
