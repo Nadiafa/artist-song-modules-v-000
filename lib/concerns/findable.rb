@@ -5,3 +5,9 @@ module Findable
   end
   
 end
+
+
+def initialize
+    @@artists << self
+    @songs = []
+  end
