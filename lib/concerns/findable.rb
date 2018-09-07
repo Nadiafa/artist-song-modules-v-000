@@ -5,13 +5,3 @@ module Findable
   end
   
 end
-
-
-  def initialize
-    self.class.all << self
-    @songs = []
-  end
-  
-  def initialize
-    self.class.all << self
-  end
